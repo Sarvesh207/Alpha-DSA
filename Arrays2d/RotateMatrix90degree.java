@@ -15,7 +15,7 @@ public class RotateMatrix90degree {
         // }
 
         // 2nd Approch
-            //   first make of tranpose of matrix 
+        //   first make of tranpose of matrix 
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
                 int temp = matrix[i][j];
@@ -36,7 +36,7 @@ public class RotateMatrix90degree {
         }
 
 
-        //print/
+        //print
 
         for(int i=0; i<matrix.length;i++){
             for(int j=0; j<matrix[0].length; j++){
